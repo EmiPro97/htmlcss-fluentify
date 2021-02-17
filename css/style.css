@@ -149,7 +149,8 @@
 
 /* Columns sect. */
 .columns-sect{
-    border-bottom: 1px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 35px;
 }
 .columns-sect .col{
     width: 35%;
@@ -190,4 +191,26 @@
 
 .columns-sect .col p{
     margin-top: 25px;
+}
+
+
+/* Mountain sect. */
+.mountain-sect .mountain-img img{
+    width: 80%;
+}
+
+.mountain-sect .mountain-text h2,
+.mountain-sect .mountain-text p,
+.mountain-sect .mountain-text a{
+    width: 75%;
+    padding: 10px;
+}
+
+.mountain-sect .mountain-text h2{
+    font-size: 24px;
+    color: black;
+}
+
+.mountain-sect .mountain-text a{
+    color: blue;
 }
