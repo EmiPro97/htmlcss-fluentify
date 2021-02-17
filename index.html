@@ -107,7 +107,7 @@
 
         <!-- Mountain sect. -->
         <section class="mountain-sect">
-            <div class="container">
+            <div class="container clearfix">
                 <div class="mountain-img w-50 float-left">
                     <img src="./img/mountain.svg" alt="mountain img">
                 </div>
@@ -119,5 +119,27 @@
             </div>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="foot-sect">
+        <div class="foot-wrapper container clearfix">
+            <div class="foot-title float-left w-50">
+                <h2>Struttura un piano</h2>
+            </div>
+            <div class="foot-select float-left w-50">
+                <span>
+                    Sono 
+                    <select name="level" id="level">
+                        <option value="void">Seleziona</option>
+                        <option value="B1">B1</option>
+                        <option value="B2">B2</option>
+                        <option value="C1">C1</option>
+                        <option value="C2">C2</option>
+                    </select>
+                </span>
+                <a class="btn btn-green btn-big" href="#">visualizza il tuo piano</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
