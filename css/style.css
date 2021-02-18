@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    padding-top: 80px;
+}
+
 
 /* UTILITIES */
 
@@ -28,6 +32,7 @@
 .w-50{
     width: 50%;
 }
+
 
 /* Nav menu */
 .menu-inline li{
@@ -64,8 +69,24 @@
 }
 
 
-/* Header */
+/* Help button */
+.help{
+    position: fixed;
+    bottom: 0;
+    right: 8%;
+    z-index: 10;
+    border-radius: 5px 5px 0 0;
+    min-width: unset;
+}
+
+
+/* HEADER */
 .main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11;
     line-height: 80px;
     font-size: 12px;
     text-transform: uppercase;
@@ -134,6 +155,7 @@
     margin-bottom: 30px;
 }
 
+
 /* Interline */
 .interline{
     background: lightgray;
@@ -146,6 +168,7 @@
     color: black;
     font-size: 22px;
 }
+
 
 /* Columns sect. */
 .columns-sect{
@@ -194,7 +217,7 @@
 }
 
 
-/* Mountain sect. */
+/* MOUNTAIN sect. */
 .mountain-sect{
     margin-bottom: 30px;
 }
@@ -220,7 +243,7 @@
 }
 
 
-/* Footer */
+/* FOOTER */
 .foot-sect{
     background-color: lightgray;
     line-height: 140px;
