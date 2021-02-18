@@ -450,6 +450,14 @@ h2, h3, h4, h5, h6{
     padding: 5px 0;
 }
 
+.foot-credits li a{
+    text-decoration: none;
+}
+
+.foot-credits li a:hover{
+    color: #b2813e;
+}
+
 .foot-credits .left-side{
     text-align: right;
 }
