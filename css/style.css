@@ -280,6 +280,10 @@ h2, h3, h4, h5, h6{
     display: none;
 }
 
+.first-foot-select option{
+    background-color: white;
+}
+
 
 /* Shake-hands sect. */
 .hands-sect .hands-img img{
