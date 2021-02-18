@@ -10,6 +10,10 @@ body{
     padding-top: 80px;
 }
 
+h2, h3, h4, h5, h6{
+    color: black;
+}
+
 
 /* UTILITIES */
 
@@ -33,6 +37,14 @@ body{
     width: 50%;
 }
 
+.margin-bottom{
+    margin-bottom: 40px;
+}
+
+.hr-bottom{
+    padding-bottom: 50px;
+    border-bottom: 2px solid lightgray;
+}
 
 /* Nav menu */
 .menu-inline li{
@@ -173,16 +185,11 @@ body{
 }
 
 .interline h2{
-    color: black;
     font-size: 22px;
 }
 
 
 /* Columns sect. */
-.columns-sect{
-    border-bottom: 2px solid lightgray;
-    margin-bottom: 35px;
-}
 .columns-sect .col{
     width: 35%;
     margin: 30px 15px;
@@ -225,11 +232,7 @@ body{
 }
 
 
-/* MOUNTAIN sect. */
-.mountain-sect{
-    margin-bottom: 30px;
-}
-
+/* Mountain sect. */
 .mountain-sect .mountain-img img{
     width: 80%;
 }
@@ -251,25 +254,21 @@ body{
 }
 
 
-/* FOOTER */
-.foot-sect{
+/* First-footer-sect. */
+.first-foot-sect{
     background-color: lightgray;
     line-height: 140px;
 }
 
-.foot-sect .foot-select a{
+.first-foot-sect .first-foot-select a{
     line-height: 1;
 }
 
-.foot-sect .foot-title h2{
-    color: black;
-}
-
-.foot-sect .foot-select{
+.first-foot-sect .first-foot-select{
     text-align: right;
 }
 
-.foot-sect .foot-select select{
+.first-foot-sect .first-foot-select select{
     margin: 0 10px;
     width: 150px;
     background-color: lightgray;
@@ -277,6 +276,191 @@ body{
     border-bottom: 1px solid #808080;
 }
 
-.foot-select select option:first-child{
+.first-foot-select select option:first-child{
     display: none;
+}
+
+
+/* Shake-hands sect. */
+.hands-sect .hands-img img{
+    width: 80%;
+}
+
+.hands-sect .hands-text{
+    padding-left: 30px;
+}
+
+.hands-sect .hands-text h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hands-sect .hands-text p{
+    margin-bottom: 30px;
+}
+
+.hands-sect .hands-text span{
+    position: relative;
+    top: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    color: #b5cdd6;
+}
+
+
+/* Pc-sect */
+.pc-sect{
+    max-width: 600px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 50px 0;
+}
+
+.pc-sect h2 .text-green{
+    color: #7cbb01;
+}
+
+.pc-sect .small-text{
+    margin: 15px 0 15px 0;
+    font-size: 12px;
+}
+
+.pc-sect a{
+    display: inline-block;
+    margin-top: 15px;
+    color: #b5cdd6;
+}
+
+
+/* Blue-interline */
+.blue-interline{
+    background-color: #0d325a;
+}
+
+.blue-interline .w-50{
+    padding: 100px 250px 100px 0;
+}
+
+.blue-interline h2{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.blue-interline p{
+    margin-bottom: 30px;
+}
+
+
+/* Plan-col sect. */
+.plan-sect{
+    text-align: center;
+}
+
+.plan-sect .plan-col{
+    width: calc(100% / 3 - 60px);
+    margin: 80px 15px;
+    text-align: left;
+    padding-right: 100px;
+}
+
+.plan-sect .plan-col:nth-child(1){
+    margin-left: 60px;
+}
+
+.plan-sect .plan-col:nth-child(3){
+    margin-right: 60px;
+}
+
+.plan-sect .plan-col img{
+    width: 50px;
+    max-height: 50px;
+    min-height: 50px;
+    margin-bottom: 30px;
+}
+
+.plan-sect .plan-col h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.plan-sect .plan-col p{
+    margin-bottom: 25px;
+}
+
+.plan-sect .plan-col a{
+    display: inline-block;
+    width: 100%;
+    padding-top: 25px;
+    border-top: 5px solid;
+}
+.plan-sect .plan-col:first-child a{
+    border-color: #9cc8ef;
+    color: #9cc8ef;
+}
+
+.plan-sect .plan-col:nth-child(2) a{
+    border-color: #f5a510;
+    color: #f5a510;
+}
+
+.plan-sect .plan-col:last-child a{
+    border-color: #83b311;
+    color: #83b311;
+}
+
+
+/* FOOTER sect. */
+
+/* FAQs */
+.FAQs-sect{
+    background-color: #0d325a;
+}
+
+.FAQs-sect .w-50{
+    padding: 40px 0;
+}
+
+.FAQs-sect h2{
+    color: white;
+    font-size: 28px;
+}
+
+.FAQs-sect h2 .orange-text{
+    color: #b2813e;
+}
+
+
+/* Footer credits and links */
+.foot-credits{
+    background-color: #17416b;
+}
+
+.foot-credits .container{
+    padding: 50px 0;
+}
+
+.foot-credits h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.foot-credits ul{
+    list-style: none;
+}
+
+.foot-credits ul li{
+    padding: 5px 0;
+}
+
+.foot-credits .left-side{
+    text-align: right;
+}
+
+.foot-credits .left-side h3{
+    margin-bottom: 40px;
+}
+
+.foot-credits .left-side .contact-info{
+    margin-top: 60px;
 }
