@@ -226,20 +226,20 @@ body{
     width: 80%;
 }
 
-.mountain-sect .mountain-text h2,
-.mountain-sect .mountain-text p,
-.mountain-sect .mountain-text a{
-    width: 75%;
-    padding: 10px;
+.mountain-sect .mountain-text{
+    padding-left: 30px;
 }
 
 .mountain-sect .mountain-text h2{
     font-size: 24px;
     color: black;
+    margin-bottom: 15px;
 }
 
 .mountain-sect .mountain-text a{
+    display: inline-block;
     color: blue;
+    margin-top: 15px;
 }
 
 
