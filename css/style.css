@@ -75,8 +75,17 @@ body{
     bottom: 0;
     right: 8%;
     z-index: 10;
+    font-size: 1rem;
     border-radius: 5px 5px 0 0;
     min-width: unset;
+    transition: padding 1s;
+    transition: color 0.5s;
+}
+
+.help:hover{
+    padding: 15px;
+    font-size: 23px;
+    color: #0d325a;
 }
 
 
@@ -100,7 +109,6 @@ body{
 .main-header .logo{
     width: 15%;
 }
-
 
 .main-header .nav-center{
     width: 45%;
@@ -269,6 +277,6 @@ body{
     border-bottom: 1px solid #808080;
 }
 
-.foot-sect .foot-select select option:first-child{
+.foot-select select option:first-child{
     display: none;
 }
