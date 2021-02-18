@@ -388,26 +388,30 @@ h2, h3, h4, h5, h6{
     margin-bottom: 25px;
 }
 
+.plan-sect .plan-col:first-child hr,
+.plan-col:first-child a{
+    color: #9cc8ef;
+    border: 3px solid #9cc8ef;
+}
+
+.plan-sect .plan-col:nth-child(2) hr,
+.plan-col:nth-child(2) a{
+    color: #f5a510;
+    border: 3px solid #f5a510;
+}
+
+.plan-sect .plan-col:last-child hr,
+.plan-col:last-child a{
+    color: #83b311;
+    border: 3px solid #83b311;
+}
+
 .plan-sect .plan-col a{
     display: inline-block;
-    width: 100%;
-    padding-top: 25px;
-    border-top: 5px solid;
-}
-.plan-sect .plan-col:first-child a{
-    border-color: #9cc8ef;
-    color: #9cc8ef;
+    border: none;
+    margin-top: 25px;
 }
 
-.plan-sect .plan-col:nth-child(2) a{
-    border-color: #f5a510;
-    color: #f5a510;
-}
-
-.plan-sect .plan-col:last-child a{
-    border-color: #83b311;
-    color: #83b311;
-}
 
 
 /* FOOTER sect. */
@@ -427,6 +431,7 @@ h2, h3, h4, h5, h6{
 }
 
 .FAQs-sect h2 .orange-text{
+    text-decoration: none;
     color: #b2813e;
 }
 
