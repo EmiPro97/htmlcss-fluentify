@@ -427,6 +427,22 @@ h2, h3, h4, h5, h6{
     color: #b2813e;
 }
 
+.FAQs-sect h2 .orange-text:hover{
+    text-decoration: underline;
+}
+
+.FAQs-sect p .icon{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.FAQs-sect .icon.email:hover{
+    color: white;
+}
+
+.FAQs-sect .icon.fb:hover{
+    color: #4c6ef5;
+}
 
 /* Footer credits and links */
 .foot-credits{
