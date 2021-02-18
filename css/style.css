@@ -358,18 +358,10 @@ h2, h3, h4, h5, h6{
 }
 
 .plan-sect .plan-col{
-    width: calc(100% / 3 - 60px);
-    margin: 80px 15px;
+    width: calc(100% / 3);
+    margin: 80px 0;
     text-align: left;
-    padding-right: 100px;
-}
-
-.plan-sect .plan-col:nth-child(1){
-    margin-left: 60px;
-}
-
-.plan-sect .plan-col:nth-child(3){
-    margin-right: 60px;
+    padding: 0 75px 0 75px;
 }
 
 .plan-sect .plan-col img{
